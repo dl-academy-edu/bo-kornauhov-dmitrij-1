@@ -1,0 +1,71 @@
+.container {
+	max-width: 1180px;
+	margin: 0 auto;
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+	padding: 0;
+	margin: 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+ul,
+p,
+button {
+	padding: 0;
+	margin: 0;
+}
+
+input,
+button {
+	border: none;
+	border-radius: 0;
+}
+
+button {
+	font-family: 'Open Sans', sans-serif;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #ffffff;
+	line-height: 22px;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+h1,
+h2 {
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	color: #1e0606;
+	text-decoration: none;
+}
+.popup,
+.slider-info-hiden {
+	display: none;
+}
