@@ -1,0 +1,375 @@
+@import '/css/font.css';
+
+.header-logo:hover {
+	opacity: 0.5;
+}
+
+.title-toy {
+	margin-top: 60px;
+	margin-bottom: 15px;
+}
+
+.bread-crumbs-list li:nth-child(5) {
+	opacity: 0.5;
+}
+
+/* FILTER */
+
+.filter {
+	background-color: rgba(125, 151, 218, 0.2);
+}
+
+.filter-form {
+	-webkit-display: flex;
+	-moz-display: flex;
+	display: flex;
+
+	-webkit-align-items: start;
+	-moz-align-items: start;
+	align-items: start;
+
+	padding: 43px 0;
+	color: #1e0606;
+}
+
+.filter-form-legend {
+	margin-bottom: 15px;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 22px;
+}
+
+.filter-form-text {
+	font-size: 16px;
+	line-height: 22px;
+}
+
+/* RANGE-COST */
+
+.filter-form-field-price {
+	margin-right: 94px;
+}
+
+.filter-form-range {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+
+	width: 188px;
+	height: 4px;
+	margin: 0 14px 15px 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	outline: none;
+}
+
+.filter-form-range::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	width: 24px;
+	height: 24px;
+	background-color: #fff;
+	border: 8px solid #c29974;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.filter-form-range-box {
+	-webkit-display: flex;
+	-moz-display: flex;
+	display: flex;
+
+	-webkit-justify-content: space-between;
+	-moz-justify-content: space-between;
+	justify-content: space-between;
+}
+
+/* CHEKBOX COLOR */
+
+.filter-form-field-color {
+	margin-right: 130px;
+}
+
+.filter-form-checkbox {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+.filter-form-check-label {
+	padding-left: 26px;
+	cursor: pointer;
+}
+
+.filter-form-list {
+	position: relative;
+}
+.filter-form-item-checkbox {
+	margin-bottom: 18px;
+}
+
+.filter-form-check-label::before {
+	display: block;
+	position: absolute;
+	width: 19px;
+	height: 19px;
+	border: 2px solid #c29974;
+	border-radius: 3px;
+	content: '';
+	margin-top: -18px;
+	cursor: pointer;
+}
+
+.filter-form-check-label::after {
+	display: block;
+	position: absolute;
+	width: 19px;
+	height: 19px;
+	background-color: #fff;
+	background-image: url(/img/check-mark.png);
+	border: 2px solid #c29974;
+	border-radius: 3px;
+	content: '';
+	margin-top: -18px;
+	cursor: pointer;
+	opacity: 0;
+}
+
+.filter-form-checkbox:checked + .filter-form-check-label::after {
+	opacity: 1;
+}
+
+/* RADIO DELIVERY */
+
+.filter-form-field-delivery {
+	margin-right: 69px;
+}
+
+.filter-form-item {
+	margin-bottom: 12px;
+}
+
+.filter-form-radio {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+.filter-form-radio-label {
+	margin-left: 26px;
+	cursor: pointer;
+	position: relative;
+}
+
+.filter-form-radio-label::before {
+	display: block;
+	position: absolute;
+	top: 1px;
+	left: -30px;
+	width: 20px;
+	height: 20px;
+	border: 2px solid #c29974;
+	border-radius: 50%;
+	content: '';
+	cursor: pointer;
+}
+
+.filter-form-radio-label::after {
+	display: block;
+	position: absolute;
+	top: 5px;
+	left: -26px;
+	width: 12px;
+	height: 12px;
+	background-color: #c29974;
+	border-radius: 50%;
+	content: '';
+	cursor: pointer;
+	opacity: 0;
+}
+
+.filter-form-radio:checked + .filter-form-radio-label::after {
+	opacity: 1;
+}
+
+/* RADIO-AMOUNT */
+
+.filter-form-pick {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+.filter-form-field-pick {
+	max-width: 240px;
+	margin-right: 60px;
+}
+
+.filter-form-list-pick {
+	-webkit-display: flex;
+	-moz-display: flex;
+	display: flex;
+
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-top: -18px;
+}
+
+.filter-form-pick-label {
+	cursor: pointer;
+	display: block;
+	width: 80px;
+	padding: 9px 0 8px 0;
+	text-align: center;
+	background-color: #fff;
+}
+
+.filter-form-pick:checked + .filter-form-pick-label {
+	background-color: #f3d0db;
+}
+
+.filter-form-pick-label:active {
+	background-color: #f3d0db;
+	opacity: 0.3;
+}
+
+.button-filter {
+	margin-top: 38px;
+}
+
+/* GOODS */
+
+.goods-list {
+	-webkit-display: flex;
+	-moz-display: flex;
+	display: flex;
+
+	-webkit-justify-content: space-between;
+	-moz-justify-content: space-between;
+	justify-content: space-between;
+
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	flex-wrap: wrap;
+
+	margin-top: 60px;
+}
+
+.goods-item {
+	margin-right: 20px;
+}
+
+.goods-title {
+	text-align: center;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+	margin-top: 30px;
+}
+
+.goods-price {
+	text-align: center;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 45px;
+}
+
+.goods-list-item {
+	position: relative;
+}
+
+.goods-list-item::before {
+	position: absolute;
+	top: 38%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 207px;
+	height: 207px;
+	padding: 82px 12px 96px 11px;
+	background-color: #e5eaf8;
+	color: #1e0606;
+	content: 'learn more';
+	font-family: 'Montserrat', 'Arial', sans-serif;
+	font-size: 26px;
+	line-height: 29px;
+	font-weight: 700;
+	text-transform: uppercase;
+	opacity: 0;
+	cursor: pointer;
+}
+
+.goods-list-item:hover::before {
+	opacity: 0.8;
+	transition-duration: 0.7s;
+}
+
+.goods-list-item:active::before {
+	opacity: 0.4;
+}
+
+/* PAGINATOR */
+
+.page-paginator {
+	-webkit-display: flex;
+	-moz-display: flex;
+	display: flex;
+
+	-webkit-justify-content: space-between;
+	-moz-justify-content: space-between;
+	justify-content: space-between;
+
+	-webkit-align-items: center;
+	-moz-align-items: center;
+	align-items: center;
+
+	width: 1180px;
+	margin: 0 auto;
+	margin-top: 92px;
+	margin-bottom: 60px;
+}
+
+.page-paginator-list {
+	-webkit-display: flex;
+	-moz-display: flex;
+	display: flex;
+}
+
+.page-paginator-item {
+	margin-right: 64px;
+}
+
+.page-paginator-link {
+	font-family: 'Montserrat', 'Arial', sans-serif;
+	font-weight: 700;
+	line-height: 19px;
+	width: 10px;
+	height: 20px;
+	color: #1e0606;
+}
+
+.page-active-link {
+	color: #c29974;
+}
+
+.page-paginator-link:hover {
+	color: #aaa;
+}
+
+.page-paginator-item:last-child {
+	margin-right: 0;
+}
+
+.button-paginator {
+	width: 17px;
+	height: 30px;
+	background-color: #fff;
+	cursor: pointer;
+	opacity: 0.2;
+}
+
+.paginator-arrow-left {
+	background-image: url('/img/button-arrow-back.svg');
+}
+
+.paginator-arrow-right {
+	background-image: url('/img/button-arrow-forward.svg');
+}
