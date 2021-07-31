@@ -1,7 +1,8 @@
-@import '/css/font.css';
+@import url("/css/font-min.css");
 
 .title-contact-us {
-	margin: 60px 0 15px 0;
+	margin: 63px 0 20px 0;
+	word-spacing: 12px;
 }
 
 .contact-us-content {
@@ -13,7 +14,7 @@
 	-moz-justify-content: space-between;
 	justify-content: space-between;
 
-	margin-bottom: 60px;
+	margin-bottom: 57px;
 }
 
 .contact-us-input-row::placeholder {
@@ -26,11 +27,11 @@
 }
 
 .contact-us-text {
-	margin-bottom: 20px;
+	margin-bottom: 19px;
 }
 
 .contact-us-title {
-	font-family: 'Montserrat', 'Arial', sans-serif;
+	font-family: "Montserrat", "Arial", sans-serif;
 	font-weight: 600;
 	font-size: 26px;
 	line-height: 34px;
