@@ -17,7 +17,7 @@
 }
 
 .slider-paginator-number {
-	font-family: "Montserrat", sans-serif;
+	font-family: "Montserrat", "Tahoma", sans-serif;
 	font-weight: 300;
 	font-size: 60px;
 	line-height: 73px;
@@ -148,7 +148,7 @@
 }
 
 .products-list-title {
-	font-family: "Montserrat", "Arial", sans-serif;
+	font-family: "Montserrat", "Tahoma", sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
 	position: absolute;
@@ -443,13 +443,8 @@
 }
 
 .form-contact-us-content {
-	position: relative;
-	max-width: 680px;
-	margin: 0 auto;
-}
-
-.form-contact-us {
 	position: fixed;
+	max-width: 680px;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -457,14 +452,13 @@
 
 .form-contact-us-close {
 	background-image: url(img/popup-close.svg);
+	position: absolute;
+	top: 0;
+	right: -25px;
 	background-color: transparent;
 	width: 15px;
 	height: 15px;
-	position: absolute;
-	margin-top: 234px;
-	right: -25px;
 	outline: none;
-
 	cursor: pointer;
 }
 

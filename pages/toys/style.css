@@ -68,6 +68,16 @@
 	cursor: pointer;
 }
 
+.filter-form-range::-moz-range-thumb {
+	-moz-appearance: none;
+	width: 8px;
+	height: 8px;
+	background-color: #fff;
+	border: 8px solid #c29974;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
 .filter-form-range-box {
 	-webkit-display: flex;
 	-moz-display: flex;
@@ -335,7 +345,7 @@
 	background-color: #e5eaf8;
 	color: #1e0606;
 	content: "learn more";
-	font-family: "Montserrat", "Arial", sans-serif;
+	font-family: "Montserrat", "Tahoma", sans-serif;
 	font-size: 26px;
 	line-height: 29px;
 	font-weight: 700;

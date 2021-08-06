@@ -48,7 +48,7 @@ a {
 }
 
 .button {
-	font-family: "Open sans", sans-serif;
+	font-family: "Open sans", "Arial", sans-serif;
 	display: block;
 	max-width: 161px;
 	padding: 9px 22px;
@@ -97,7 +97,7 @@ fieldset {
 /* TITLES TEXT */
 
 .title-one {
-	font-family: "Montserrat", sans-serif;
+	font-family: "Montserrat", "Tahoma", sans-serif;
 	font-weight: 700;
 	font-size: 40px;
 	line-height: 44px;
@@ -106,7 +106,7 @@ fieldset {
 }
 
 .title-two {
-	font-family: "Montserrat", "Arial", sans-serif;
+	font-family: "Montserrat", "Tahoma", sans-serif;
 	font-weight: 700;
 	font-size: 38px;
 	line-height: 46px;
@@ -354,7 +354,7 @@ fieldset {
 }
 
 .page-paginator-link {
-	font-family: "Montserrat", "Arial", sans-serif;
+	font-family: "Montserrat", "Tahoma", sans-serif;
 	font-weight: 700;
 	line-height: 19px;
 	width: 10px;
@@ -448,7 +448,7 @@ fieldset {
 }
 
 .footer-title {
-	font-family: "Open Sans", sans-serif;
+	font-family: "Open Sans", "Arial", sans-serif;
 	font-size: 16px;
 	font-weight: normal;
 	line-height: 22px;
@@ -472,7 +472,7 @@ fieldset {
 }
 
 .footer-list-link {
-	font-family: "Open Sans", sans-serif;
+	font-family: "Open Sans", "Arial", sans-serif;
 	font-size: 16px;
 	line-height: 22px;
 	color: #fff;
@@ -664,7 +664,7 @@ fieldset {
 }
 
 .footer-link-line {
-	font-family: "Open Sans", sans-serif;
+	font-family: "Open Sans", "Arial", sans-serif;
 	font-size: 16px;
 	line-height: 22px;
 	color: #a2a2a2;
@@ -741,7 +741,7 @@ fieldset {
 	outline: none;
 	border: 1px solid rgba(0, 0, 0, 0.2);
 	padding: 12px 0 11px 20px;
-	font-family: "Open Sans", sans-serif;
+	font-family: "Open Sans", "Arial", sans-serif;
 	font-size: 18px;
 	line-height: 25px;
 	color: #1e0606;
