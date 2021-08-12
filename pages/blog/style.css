@@ -28,6 +28,11 @@
 	outline: none;
 }
 
+.blog-list-img{
+	display: block;
+	background: #d3dae2;
+}
+
 .blog-list-link:focus .blog-list-title {
 	text-decoration: underline;
 }
@@ -47,7 +52,7 @@
 	color: #1e0606;
 }
 
-.blog-list-title:hover {
+.blog-list-item:hover .blog-list-title {
 	text-decoration: underline;
 }
 
