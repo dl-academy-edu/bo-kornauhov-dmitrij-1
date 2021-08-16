@@ -7,7 +7,7 @@
 	<meta name="description" content="DLK главная страница">
 	<link href="/css/normalize-min.css" rel="stylesheet">
 	<link href="/css/common-min.css" rel="stylesheet">
-	<link href="/style-min.css" rel="stylesheet">
+	<link href="/css/style-min.css" rel="stylesheet">
 	<title>DLK</title>
 </head>
 
@@ -68,17 +68,17 @@
 				</div>
 			</div>
 			<div class="slider-info hidden">
-				<h1 class="slider-title">The ooh noo collection</h1>
+				<p class="slider-title">The ooh noo collection</p>
 				<p class="slider-text">Designed in Slovenia</p>
 				<button class="slider-button" aria-label="slider-button" disabled>Explore now</button>
 			</div>
 			<div class="slider-info hidden">
-				<h1 class="slider-title">The ooh noo collection</h1>
+				<p class="slider-title">The ooh noo collection</p>
 				<p class="slider-text">Designed in Slovenia</p>
 				<button class="slider-button" aria-label="slider-button" disabled>Explore now</button>
 			</div>
 			<div class="slider-info hidden">
-				<h1 class="slider-title">The ooh noo collection</h1>
+				<p class="slider-title">The ooh noo collection</p>
 				<p class="slider-text">Designed in Slovenia</p>
 				<button class="slider-button" aria-label="slider-button" disabled>Explore now</button>
 			</div>
@@ -127,8 +127,8 @@
 					<div class="delivery-info">
 						<h2 class="title-two delivery-title">delivery</h2>
 						<ul class="delivery-list">
-							<li class="delivery-list-item-active">
-								<a class="delivery-list-link-active" href="#">Delivery</a>
+							<li class="delivery-list-item">
+								<a class="delivery-list-link delivery-active" href="#">Delivery</a>
 							</li>
 							<li class="delivery-list-item">
 								<a class="delivery-list-link" href="#">Guarantee</a>
@@ -148,7 +148,7 @@
 								and i have you and all of the beautiful designers that we work with to thank!
 							</p>
 						</div>
-						<button class=" button delivery-button" aria-label="delivery-button">learn more</button>
+						<button class="delivery-button button" aria-label="delivery-button">learn more</button>
 					</div>
 				</div>
 			</div>
@@ -208,7 +208,7 @@
 					<h3 class="footer-title">Navigation</h3>
 					<ul class="footer-list">
 						<li class="footer-list-item"><a class="footer-list-link" href="#">About Us</a></li>
-						<li class="footer-list-item"><a class="footer-list-link" href="#">Blog</a></li>
+						<li class="footer-list-item"><a class="footer-list-link" href="./pages/blog/index.html">Blog</a></li>
 						<li class="footer-list-item"><a class="footer-list-link" href="#">Design Services</a></li>
 						<li class="footer-list-item"><a class="footer-list-link" href="#">Featured On</a></li>
 						<li class="footer-list-item"><a class="footer-list-link" href="#">2018 Holiday Catalog</a></li>
@@ -218,7 +218,8 @@
 				<div class="footer-column">
 					<h3 class="footer-title">Customer Information</h3>
 					<ul class="footer-list">
-						<li class="footer-list-item"><a class="footer-list-link" href="#">Contact Us</a></li>
+						<li class="footer-list-item"><a class="footer-list-link" href="./pages/contact-us/index.html">Contact Us</a>
+						</li>
 						<li class="footer-list-item"><a class="footer-list-link" href="#">Sale Exclusions</a></li>
 						<li class="footer-list-item"><a class="footer-list-link" href="#">Shipping & Returns</a></li>
 						<li class="footer-list-item"><a class="footer-list-link" href="#">Terms & Conditions</a></li>
@@ -267,7 +268,8 @@
 				<div class="footer-bottom">
 					<p class="footer-text text">Copyright © 2018 Dlk • Design Life Kids</p>
 				</div>
-				<div class="footer-bottom"><a href="#" class="footer-link-line">Web Design — Direct Line Development</a></div>
+				<div class="footer-bottom"><a class="footer-link-line" href="https://directline.digital/" target="_blank">Web
+						Design — Direct Line Development</a></div>
 			</div>
 		</div>
 	</footer>
@@ -292,7 +294,7 @@
 				</fieldset>
 				<fieldset>
 					<label class="textarea-form-label" for="textarea">Message</label>
-					<textarea class="textarea-contact-us input-text" type="text" id="textarea"></textarea>
+					<textarea class="textarea-contact-us input-text" id="textarea"></textarea>
 				</fieldset>
 				<fieldset>
 					<div class="contact-us-chekbox">
@@ -303,7 +305,8 @@
 				</fieldset>
 				<button class="button button-contact-us" aria-label="popup-submit" disabled>submit</button>
 			</form>
-			<button class="form-contact-us-close popup-close-js" aria-label="popup-close-button"></button>
+			<button class="form-contact-us-close popup-close-js" aria-label="popup-close-button"><img
+					src="/img/popup-close.svg" width="15" height="15" alt="close modal"></button>
 		</div>
 	</div>
 	<script src="/js/script-min.js"></script>

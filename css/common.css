@@ -377,31 +377,33 @@ fieldset {
 	margin: 0;
 }
 
-.button-paginator {
-	width: 17px;
-	height: 30px;
+.arrow {
+	background: none;
 	cursor: pointer;
-	opacity: 0.1;
-	outline: none;
-	background: transparent;
 }
 
-.button-paginator:focus,
-.button-paginator:hover {
+.arrow-img path {
 	opacity: 0.3;
-	transition: 0.5s;
 }
 
-.button-paginator:hover {
-	color: #fff;
+.arrow-left{
+	transform: rotate(180deg);
 }
 
-.paginator-arrow-left {
-	background-image: url("/img/button-arrow-back.svg");
+.arrow:hover .arrow-img path,
+.arrow:focus .arrow-img path {
+	stroke: #c29974;
+	opacity: 1;
 }
 
-.paginator-arrow-right {
-	background-image: url("/img/button-arrow-forward.svg");
+.arrow:active .arrow-img path {
+	stroke: rgba(194, 153, 116, 0.7);
+	opacity: 1;
+}
+
+.arrow:disabled{
+	opacity: 0.2;
+	pointer-events: none;
 }
 
 /* FOOTER */
@@ -512,6 +514,7 @@ fieldset {
 	line-height: 22px;
 }
 
+
 .connect-form-input:hover,
 .connect-form-input:focus {
 	border: 1px solid #fffdfd;
@@ -522,6 +525,10 @@ fieldset {
 .connect-form-input:active {
 	border: 1px solid #fffdfd;
 	border-right: transparent;
+}
+
+.connect-form-input:disabled{
+	pointer-events: none;
 }
 
 .footer-button {
@@ -719,6 +726,7 @@ fieldset {
 	margin-top: 5px;
 }
 
+
 .contact-us-unput-2-rows {
 	width: 290px;
 	height: 50px;
@@ -740,7 +748,7 @@ fieldset {
 .input-text {
 	outline: none;
 	border: 1px solid rgba(0, 0, 0, 0.2);
-	padding: 12px 0 11px 20px;
+	padding: 12px 20px 11px 20px;
 	font-family: "Open Sans", "Arial", sans-serif;
 	font-size: 18px;
 	line-height: 25px;
@@ -749,11 +757,11 @@ fieldset {
 
 .input-text:hover,
 .input-text:focus {
-	outline: 2px solid #c29974;
+	border: 2px solid #c29974;
 }
 
 .input-text:disabled {
-	outline: 2px solid #ebebeb;
+	border: 2px solid #ebebeb;
 	background-color: #fff;
 }
 
